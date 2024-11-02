@@ -27,3 +27,9 @@ variable "email_address" {
   type        = string
   default     = "devopsnandahein28@gmail.com"
 }
+
+variable "stage_name" {
+  description = "this is your stage name"
+  type        = string
+  default     = "dev"
+}
