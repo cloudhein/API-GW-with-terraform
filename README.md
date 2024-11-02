@@ -10,7 +10,7 @@
 
 `curl -X POST -G -d 'TopicArn=arn:aws:sns:REGION:ACCOUNT-ID:API-Messages' -d 'Message=Hello!'  https://abc123def.execute-api.ap-southeast-2.amazonaws.com/v1/sns`
 
-######  How to call sns resources with Postman
+***How to call sns resources with Postman***
 ![alt text](https://github.com/cloudhein/API-GW-with-terraform/blob/main/postman%20.png)
 
 ***You will receive an email from SNS containing the message in your Query String***
